@@ -1,0 +1,54 @@
+
+
+h1, h3 {
+    font-family: 'Paytone One', sans-serif;
+}
+
+/* style of  three categories*/
+#vitalScorecards {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.chart-parent--container {
+    display: flex;
+}
+
+.chart--container {
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+}
+
+#vitalScorecards h3 {
+    color: black;
+}
+
+#vitalScorecards output {
+    font-size: xx-large;
+    color: blue;
+}
+
+#totalSales:before {
+    content: '$';
+    font-size: xx-large;
+    color: green;
+}
+#zxc {
+    height: 400px; 
+    width: 100%;
+    min-width: 310px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+text.highcharts-credits {
+    display: none;
+}
+
